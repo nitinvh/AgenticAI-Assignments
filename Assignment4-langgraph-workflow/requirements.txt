@@ -1,0 +1,24 @@
+pydantic
+python-dotenv
+langchain
+langchain-openai
+langchain-groq
+langchain-core
+langchain-community
+defusedxml
+pypdf
+bs4
+arxiv
+pymupdf
+wikipedia
+langchain_huggingface
+faiss-cpu
+langchain_google_genai
+langchain-pinecone
+matplotlib
+# poppler-utils
+# unstructured-pytesseract
+# tesseract-ocr
+langgraph
+ipykernel
+streamlit
