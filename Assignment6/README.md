@@ -33,16 +33,7 @@ This **dynamic and adaptive system** leads to more **accurate, robust, and conte
 
 The corrective RAG system is defined as a **LangGraph DAG (Directed Acyclic Graph)** that connects intelligent agents and tools.
 
-```mermaid
-graph TD
-    A[START] --> B{LLM DECIDER}
-    B -->|tools| C[RETRIEVER]
-    B -->|END (No Tools Needed)| G[END]
-    C -->|generator (Relevant Docs)| D[GENERATOR]
-    C -->|rewriter (Irrelevant Docs)| E[RE-WRITER]
-    D --> G
-    E --> F[WEB SEARCH]
-    F --> G
+![alt text](image-1.png)
 
 
 # 🔄 Node Explanations
