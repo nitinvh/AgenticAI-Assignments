@@ -1,0 +1,15 @@
+pydantic
+python-dotenv
+langchain
+langchain-openai
+langchain-groq
+langchain-core
+langchain-community
+pypdf
+pymupdf
+langchain_google_genai
+langgraph
+ipykernel
+pypdf
+bs4
+chromadb
